@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@color/white">
+
+    <ImageView
+            android:id="@+id/iv_splash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            />
+    <ImageButton
+            android:visibility="gone"
+        android:id="@+id/ib_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_centerInParent="true">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:indeterminate="true"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/loading"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/tv_status"
+                android:visibility="gone"/>
+    </LinearLayout>
+
+</RelativeLayout>

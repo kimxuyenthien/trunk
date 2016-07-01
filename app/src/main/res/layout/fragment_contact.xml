@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/contact_text_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contact_text_2"/>
+          <EditText
+                android:id="@+id/et_company"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+              android:layout_marginTop="10dp"
+              android:background="@color/gray_not_stress"
+              android:inputType="textCapWords"
+                android:hint="@string/text_company"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"/>
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:inputType="textCapWords"
+                android:hint="@string/text_name"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/et_surname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:inputType="textCapWords"
+                android:hint="@string/text_surname"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+            <EditText
+                android:id="@+id/et_street"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:hint="@string/text_street_house_number"
+                android:inputType="textCapWords"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/et_plz"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:hint="@string/text_plz"
+                android:inputType="number"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/et_ort"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:hint="@string/text_ort"
+                android:inputType="textCapWords"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:hint="@string/text_email"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:hint="@string/text_phone"
+                android:inputType="number"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+
+                />
+            <CheckBox
+                android:id="@+id/cb_call_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:hint="@string/text_call_phone"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                />
+
+            <EditText
+                android:id="@+id/et_message"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="top"
+                android:hint="@string/text_message"
+                android:inputType="textMultiLine|textCapSentences"
+                android:lines="4"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+
+
+        <CheckBox
+            android:id="@+id/cb_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:hint="@string/text_copy"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/contact_text_3"/>
+        <Button
+            android:id="@+id/btn_send_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/send"
+            android:background="@drawable/button_stylepressed"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/button_text_color"
+            fontPath="fonts/BosisStd-Bold.otf"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

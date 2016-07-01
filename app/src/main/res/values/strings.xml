@@ -1,0 +1,322 @@
+<resources>
+    <string name="app_name">Allpresan®</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="no_login">öffentlicher Bereich</string>
+    <string name="treatment_tip">Behandlungstipps</string>
+    <string name="product">Produkte</string>
+    <string name="product_scanner">Produktscanner</string>
+    <string name="service_questions">Servicefragen</string>
+    <string name="faq_forum">FAQ / Forum</string>
+    <string name="inci_lexicon">Inhaltsstoff-Lexikon</string>
+    <string name="about_us">Über uns</string>
+    <string name="contact">Kontakt</string>
+    <string name="news">News</string>
+    <string name="allpresan_academy">Allpresan Akademie</string>
+    <string name="foot_prefessional_search">Fußprofi-Suche</string>
+    <string name="data_protection">Datenschutz</string>
+    <string name="impressum">Impressum</string>
+    <string name="training_tool">Schulungstool</string>
+    <string name="event_training">Events / Fortbildungen</string>
+    <string name="features">Features</string>
+    <string name="have_login">Gesicherter Bereich</string>
+    <string name="loggedin">Logged in</string>
+    <string name="more_info">Weitere Infos >></string>
+    <string name="hint_search">Suchen...</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</string>
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_message">Nachricht</string>
+
+    <string name="agreement_content">Ich erkläre mich damit einverstanden, dass neubourg skin care GmbH &amp; Co.KG die beigefügten Fotos in Online- und/oder Printmedien veröffentlichen darf.
+\n\nDieses Einverständnis kann jederzeit - auch teilweise - widerrufen werden und gilt ansonsten zeitlich unbeschränkt.</string>
+    <string name="the_agreement">Einverständnis</string>
+    <string name="the_agreement_title">Einverständniserklärung</string>
+    <string name="the_agreement_content">Ich erkläre mich damit einverstanden, dass Neubourg skin care GmbH &amp; Co.KG die beigefügten Fotos in Online- und/oder Printmedien veröffentlichen darf. Es besteht und ergibt sich kein Haftungsanspruch gegenüber der  Neubourg skin care GmbH &amp; Co.KG für Art und Form der Nutzung der oben aufgeführten Nutzungen, zum Beispiel für das Herunterladen von Bildern und deren anschließender Nutzung durch Dritte
+(Nach § 22 KUG (Kunsturhebergesetz) ist eine Veröffentlichung grundsätzlich nur zulässig, wenn zuvor die Einwilligung der Abgebildeten eingeholt wurde. Allerdings ist nach § 23 KUG eine Einwilligung nicht erforderlich, wenn die abgebildeten Personen nicht den Motivschwerpunkt bilden, oder sie "Personen der Zeitgeschichte" bzw. Teil einer Versammlung/Veranstaltung sind.)
+
+Dieses Einverständnis kann jederzeit - auch teilweise - widerrufen werden und gilt ansonsten zeitlich unbeschränkt.
+</string>
+    <string name="send">Senden</string>
+	<string name="sending">Senden...</string>
+    <string name="send_success">Ihre Anfrage wurde erfolgreich versendet.</string>
+	
+    <string name="scan_product">Produkt scannen für wichtige Inhaltsstoffe</string>
+    <string name="evalutaion">Auswertung</string>
+    <string name="not_be_able_to_scan">Can\'t scan now! \nMake sure you have internet connection!</string>
+
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+    <string name="loading">Loading</string>
+    <string name="download">Downloading</string>
+
+    <!-- splash activity-->
+    <string name="checking_database">Checking data from server</string>
+    <string name="extract">Extracting</string>
+    <string name="network_error">Network error</string>
+
+    <!-- alert dialog-->
+    <string name="close">Schließen</string>
+    <string name="info">Information</string>
+    <string name="yes">Ja</string>
+    <string name="ok">Ok</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="no">Nein</string>
+    <string name="confirm_content">Do you want to delete item selected?</string>
+    <string name="No_product">No having product in this group </string>
+    <string name="sending_error">Ihr Ergebnis konnte nicht versendet werden. Bitte überprüfen Sie ihre Internetverbindung und versuchen Sie es erneut.</string>
+    <string name="sending_ok">Ihre Ergebnis wurde erfolgreich versendet.</string>
+
+    <string name="confirm_selected">Please choose item to delete!</string>
+    <string name="login_failed">Ihre Kundennummer oder Postleitzahl ist nicht korrekt. Bitte versuchen Sie es erneut.</string>
+    <string name="send_contact_failed">Ihre Anfrage konnte nicht versendet werden. Bitte überprüfen Sie ihre Internetverbindung und versuchen Sie es erneut.</string>
+    <string name="error">Fehler</string>
+    <string name="error_scan">Der gescannte EAN Code konnte keinem Allpresan® Produkt zugeordnet werden.</string>
+    <string name="error_no_internet_for_foot_profi">Zum Aufrufen der Fußprofi-Suche wird eine Internetverbindung benötigt. Bitte überprüfen Sie die Internetverbindung und versuchen Sie es erneut.</string>
+
+    <!--Login screen -->
+    <string name="cancel">Abbrechen</string>
+    <string name="finish">Beenden</string>
+    <string name="login">Gesicherter Bereich</string>
+    <string name="login_button">Login</string>
+    <string name="logout">Logout</string>
+    <string name="postcode">Postleitzahl</string>
+    <string name="customer_number">Kundennummer</string>
+    <string name="save_login">Logindaten speichern</string>
+    <string name="logout_confirm">Möchten Sie sich wirklich ausloggen?</string>
+    <string name="logout_title">Bestätigung</string>
+    <string name="forgot_password">Kundennummer vergessen oder Neukunde werden?</string>
+
+    <!--Home screen -->
+    <string name="home">Herzlich Willkommen</string>
+    <string name="text_first_run">Sind Sie Endverbraucher oder ein Fuß-Profi?</string>
+    <string name="end_user">Endverbraucher</string>
+    <string name="login_user">Fuß-Profi</string>
+
+    <!--Tip detail screen -->
+    <string name="productList">Produktvorschlag</string>
+
+    <string name="take_photo_error">Bei der Aufnahme des Bildes ist ein Fehler aufgetreten. Bitte nehmen Sie ein neues Bild auf.</string>
+
+    <!--Tip contact screen -->
+    <string name="email_address_empty">Email can not be empty!</string>
+    <string name="choosen_email_client">Choose an Email client :</string>
+    <string name="send_mail_error">Send mail is error</string>
+    <string name="product_group">Produktgruppe</string>
+    <string name="text_treatment_contact"> Haben Sie oder Ihre Patienten Fußprobleme, bei denen Sie sich unsicher sind, welches Allpresan® Produkt dort empfehlenswert ist? \nDann schicken Sie uns ein Bild und eine Beschreibung. Wir helfen Ihnen gerne weiter.
+</string>
+    <string name="accept_foto_message">Bitte erteilen Sie uns ihr Einverständnis zur Veröffentlichung des Fotos.</string>
+
+
+    <!--Event screen -->
+    <string name="no_date_event">No date</string>
+
+    <!-- schulung tool screen -->
+    <string name="title_schulungTool">PODOEXPERT</string>
+    <string name="schulungTool">Fragebogen</string>
+    <string name="note_schulungTool">(je eine Antwort pro Frage is richtig)</string>
+    <string name="next">&gt;&gt;</string>
+    <string name="previous">&lt;&lt;</string>
+    <string name="question1">1. Die Haut ist... </string>
+    <string name="question2">2. Die Hautbarriere...</string>
+    <string name="question3">3. Die Lipide der Lipidmatrix...</string>
+    <string name="question4">4. Die Folgen einer trockenen Haut...</string>
+    <string name="question5">5. Die wichtigste Maßnahme zur Behandlung und Pflege der trockenen Haut ist...</string>
+    <string name="question6">6. Grundlage für die LIPO2 Haut-Repair-Technologie ist...</string>
+    <string name="question7">7. Aufgrund der Ähnlichkeit mit den natürlichen Lipiden der Hautbarriere...</string>
+    <string name="question8">8. Einzigartig ist...</string>
+    <string name="question9">9. Die Vorteile der Allpresan® PODOEXPERT Fußprofi- exklusiven Produktlinie:</string>
+    <string name="anwser1_1">eine lose Hülle, die unseren Körper zusammenhält.</string>
+    <string name="anwser1_2">mit einer Fläche von rund 2 m2 unser größtes Organ.</string>
+    <string name="anwser1_3">aus mehreren Schichten aufgebaut, die alle aus toten Zellen bestehen.</string>
+
+    <string name="anwser2_1">besteht aus abgestorbenen, verhornten Zellen, die von einer extrazellulären Lipidmatrix umgeben sind.</string>
+    <string name="anwser2_2">ist die Schicht der Haut, in der sich Bakterien, Pilze und andere Einzeller besonders gut vermehren.</string>
+    <string name="anwser2_3">sorgt für einen zügigen Durchtritt von CO2 und Sauerstoff.</string>
+
+    <string name="anwser3_1">haben einen Kopf und zwei Beine.</string>
+    <string name="anwser3_2">besitzen einen polaren, wasserlöslichen Kopf, an den sich unpolare, fettlösliche Fettsäureketten anschließen.</string>
+    <string name="anwser3_3">sind fettige Substanzen der Hautbarriere, die häufig die Poren verstopfen.</string>
+
+    <string name="anwser4_1">sind Hautschuppen in der Kleidung.</string>
+    <string name="anwser4_2">sind schlechtere Vermehrung von Bakterien und Pilzen auf der Haut.</string>
+    <string name="anwser4_3">sind eine Störung der Hautbarriere, der Verlust der Schutzfunktion und ein erhöhtes Risiko für Entzündungen und Infektionen.</string>
+
+    <string name="anwser5_1">die schnellstmögliche Reparatur der gestörten Haut-barriere durch Auffüllen der Lücken im Lipidfilm und ein schnellstmöglicher Ausgleich des Feuchtigkeitsdefizits durch Zufuhr von Feuchthaltefaktoren.</string>
+    <string name="anwser5_2">vorsichtige Entfernung der Hautschuppen durch ein 240er Schmirgelpapier.</string>
+    <string name="anwser5_3">das ausführliche Baden der betroffenen Hautpartien in lauwarmer 0,9%iger Kochsalzlösung.</string>
+
+
+    <string name="anwser6_1">die Tatsache, dass sich Lipide wie ein Schmierfilm auf die Haut legen und so die Bakterien und Pilze der Haut vor äußeren Einflüssen schützen und somit die Hautbarriere stabilisieren.</string>
+    <string name="anwser6_2">die Entfernung von instabilen Lipiden in der Haut- barriere, so dass die Haut besser atmen kann.</string>
+    <string name="anwser6_3">die Nachahmung der hauteigenen Lipide. Diese haut- verwandten Lipide ordnen sich genau wie natürliche lipide in typischen Doppelschichten an.</string>
+
+
+    <string name="anwser7_1">bekommt die Haut durch die hautverwandten Lipide der LIPO2 Haut-Repair-Technologie ihren natürlichen Glanz zurück.</string>
+    <string name="anwser7_2">schließen die hautverwandten Lipide der LIPO2 Haut-Repair-Technologie die vorhanden Lücken im Lipidfilm der Hautbarriere passgenau.</string>
+    <string name="anwser7_3">werden die hautverwandten Lipide der LIPO2 Haut-Repair-Technologie besonders gut vertragen.</string>
+
+    <string name="anwser8_1">die Kombination aus innovativer, patentierter LIPO2 Haut-Repair-Technologie und der bewährten Schaum-Creme-Technologie.</string>
+    <string name="anwser8_2">die Kombination aus Aluminiumdose und Schaum- Creme.</string>
+    <string name="anwser8_3">die Kombination aus einer Schaum-Creme mit Urea.</string>
+
+    <string name="anwser9_1">Nicht erhältlich in Apotheke und Großhandel, mit dem Aufdruck Ihrer Praxis.</string>
+    <string name="anwser9_2">Verstauben nicht.</string>
+    <string name="anwser9_3">Halten nicht länger als 6 Wochen.</string>
+    <string name="anfrage">Anfrage</string>
+    <string name="send_picture">Bild schicken</string>
+    <string name="send_training">Ergebnis senden</string>
+
+    <string name="refresh">Aktualisieren</string>
+
+    <!-- features screen -->
+    <string name="hint_name">Name</string>
+	<string name="hint_subject">Betreff (Pflicht)</string>
+    <string name="hint_telephone_number">Telephonnummer</string>
+
+    <!-- product detail screen -->
+    <string name="size">Größe</string>
+    <string name="item">Art. Nr.</string>
+
+    <!-- App areas screen -->
+    <string name="app_areas">Anwendungsgebiete</string>
+	<string name="Allpresan_fuss_spezial">Allpresan® Fuß spezial</string>
+	<string name="Fuss_profi_exklusiv">FUSS-PROFI EXKLUSIV</string>
+	<string name="Allpresan_PODOEXPERT">Allpresan® PODOEXPERT</string>
+	<string name="Medizinprodukte">MEDIZINPRODUKTE</string>
+	<string name="Allpresan_diabetic">Allpresan® diabetic</string>
+	<string name="zur_pravention">ZUR PRÄVENTION</string>
+	<string name="Allpresan_pro2_sport">Allpresan® PRO2 SPORT</string>
+	<string name="Basispflege">BASISPFLEGE</string>
+    <string name="Allprean_wohl_fuehl_pflege">pediONE by Allpresan®</string>
+    <string name="sensitive_skin">Empfindliche Haut</string>
+	<string name="sensitive_skin_description">Empfindliche Haut ist schnell reizbar und reagiert bei falscher Pflege mit Irritationen und Rötungen. Sie muss also sanft und behutsam behandelt werden. Unsere Allpresan® Schaum-Cremes bieten sich dafür besonders an, denn der luftig-leichte Schaum lässt sich einfach auftragen und leicht verteilen. Eine speziell auf die Bedürfnisse empfindlicher Haut abgestimmte Wirkformel spendet dieser Feuchtigkeit, beruhigt sie und unterstützt ihren Regenerationsprozess. Auch Kinderfüße lassen sich damit sanft und dauerhaft pflegen.</string>
+	<string name="sensitive_skin_products">– 1 Original Schaum-Creme empfindliche Haut</string>
+
+    <string name="dry_skin">Trockene Haut</string>
+	<string name="dry_skin_description">Von trockener Haut ist nahezu jeder Mensch irgendwann einmal betroffen. An den Füßen fängt sie häufig an zu schuppen und zu jucken. Die Hautbarriere befindet sich dann im Ungleichgewicht – ihr fehlen Feuchtigkeit und Lipide. Unsere Schaum-Cremes gleichen dieses Defizit
+auf unterschiedliche Weise aus: Zum einen durch natürliche Feuchthaltefaktoren wie z.B. Urea, die der Haut ihre Elasti- zität und Geschmeidigkeit zurückgeben und zudem die Feuchtigkeit in der Haut binden. Zum anderen durch wert- volle Lipide, die die gestörte Hautbarriere wieder auffüllen. Besonders wirksam erweisen sich dabei sogenannte pass- genaue Lipide, die sich wie ein Puzzleteilchen in die Hautlücken einfügen (BarrioExpert® LIPO2 Technologie).</string>
+	<string name="dry_skin_products_1">– 2 Original Schaum-Creme trockene Haut\n– 3 Original Schaum-Creme sehr trockene Haut\n– 3 Fußbadkonzentrat sehr trockene Haut</string>
+	<string name="dry_skin_products_2">– Repair Schaum-Creme trockene Haut\n– Repair Schaum-Creme rissige Haut\n– Repair Creme rissige Haut</string>
+
+    <string name="cornea_fissures">Hornhaut und Schrunden</string>
+	<string name="cornea_fissures_description">Hornhaut ist lästig und kann sogar gefährlich werden, wenn Risse entstehen oder sich gar Schrunden bilden. Deshalb ist ein frühzeitiges Entgegenwirken wichtig. Dazu kann der Feuchtigkeitsfaktor Urea hoch dosiert (15 %) sehr effektiv zur sanften und natürlichen Reduktion der Hornhaut eingesetzt werden. In der Kombination Schaum-Creme für den Tag und Creme für die Nacht lassen sich beste Ergebnisse innerhalb kurzer Zeit erzielen. Der Hautzustand bessert sich nachhaltig.</string>
+	<string name="cornea_fissures_products_1">– 4 Lipid-Salbe Hornhaut und Schrunden\n– 4 Original Schaum-Creme Hornhaut und Schrunden</string>
+	<string name="cornea_fissures_products_2">– Repair Schaum-Creme Anti-Hornhaut</string>
+
+    <string name="diabetic_skin">Diabetische Haut</string>
+	<string name="diabetic_skin_description">Die Fußhaut von Menschen mit Diabetes ist sehr häufig
+von ausgeprägter Trockenheit betroffen. Ursache sind Durchblutungs- und Nervenstörungen. Die Haut ist rissig und abwehrschwach. Bakterien und Pilzerreger haben leichtes Spiel, Wunden heilen schlechter ab. Unsere Allpresan® diabetic Schaum-Cremes sind darauf die richtige Antwort. Als zertifizierte Medizinprodukte sind sie bestens geeignet, Infektionen vorzubeugen, Ulzerationen entgegenzuwirken und die Hautbarriere zu stabilisieren. Im Gegensatz zu herkömmlichen Cremes, Salben und Schäumen dürfen die Allpresan® diabetic Schaum-Cremes dank der atmungs- aktiven BarrioExpert® Technologie auch in den Zehen- zwischenräumen angewendet werden – für höchste Sicherheit von der Ferse bis zu den Zehen.</string>
+	<string name="diabetic_skin_products">– Schaum-Creme BASIS Behandlung und Pflege der Haut bei Diabetes mellitus\n– Schaum-Creme INTENSIV Behandlung und Pflege sehr trockener Haut bei Diabetes mellitus</string>
+
+    <string name="athlete_foot">Fußpilz</string>
+	<string name="athlete_foot_description">Gesunde Füße jucken nicht. Doch Fußpilz gilt inzwischen als Volkskrankheit. Nahezu jeder dritte Deutsche ist davon betroffen. Auf den Füßen zeigen sich schuppige, rote und gereizte Haut- flächen bis hin zu schmerzhaften Wundflächen, Bläschen und Rissen in der Haut. Befallen sind die Zehenzwischenräume,
+die Fußsohlen, Fußkanten und Fußrücken. Alles in allem sehr unangenehme und oftmals hartnäckige Begleiterscheinungen. Mit den speziell für dieses Problem formulierten Allpresan® Schaum-Cremes und ihren Ergänzungsprodukten kann das Umfeld zu Ungunsten eines Fußpilzes verändert und optimale Bedingungen für gesunde Füße geschaffen werden. Dabei können unsere Schaum-Cremes auch in den Zehenzwischen- räumen angewendet werden, sind wasserfest und verlieren beispielsweise auch im Schwimmbad nicht ihre Wirkung.</string>
+	<string name="athlete_foot_products_1">– 7 Original Schaum-Creme pilz-empfindliche Haut\n– 7 Schuh-Spray angenehmes Schuhklima</string>
+	<string name="athlete_foot_products_2">– 3 Original Schaum-Creme sehr trockene Haut</string>
+	<string name="athlete_foot_products_3">– Repair Schaum-Creme therapiebegleitende Pflege bei Fußpilz</string>
+
+    <string name="nail_problems">Nagelprobleme</string>
+	<string name="nail_problems_description">Trockene, brüchige und splittrige Nägel sind nicht nur
+ein Ärgernis, denn sie stören das äußere Erscheinungsbild. Sie bieten auch Pilzsporen optimale Bedingungen, sich einzunisten. Deshalb ist die regelmäßige Pflege der Nägel quasi ein Muss, um Schlimmeres zu verhindern. Hat sich ein Pilz erst einmal eingenistet, droht ohne konsequente Behandlung und Pflege die Zerstörung des Nagels. Mit den Allpresan® Nagelpflege-Produkten wird der Entstehung von Nagelpilz intensiv vorgebeugt und dessen Therapie wirksam unterstützt.</string>
+	<string name="nail_problems_products_1">– Repair Nagel-Tinktur therapiebegleitende Pflege bei Nagelpilz</string>
+	<string name="nail_problems_products_2">– 7 Nageltinktur pilz-empfindliche Nägel</string>
+	<string name="nail_problems_products_3">– 7 Nagelpflege-Öl pilz-empfindliche Nägel</string>
+
+    <string name="foot_sweaty_odor">Schwitzende Füße und Fußgeruch</string>
+	<string name="foot_sweaty_odor_description">Jeder kennt das Phänomen schwitzender Füße – gerade beim Sport oder im Sommer. Doch viele Menschen, ca. 30 % aller Deutschen, leiden an einer krankheitsbedingten erhöhten Schweißbildung an den Füßen. Unangenehme Geruchsent- wicklung ist die Folge – und nicht die Einzige. Eine Studie ergab, dass die Pilzanfälligkeit rund 3,5 mal höher ist als üblich. Mit den richtigen Pflegeprodukten von Allpresan® lässt sich jedoch die übermäßige Schweißbildung effektiv reduzieren und der Geruchsentwicklung sowie Pilzinfektionen vorbeugen.</string>
+	<string name="foot_sweaty_odor_products">– 5 Original Schaum-Creme schwitzende Füße\n– 5 Frische-Spray schwitzende Füße\n– 7 Schuh-Spray angenehmes Schuhklima</string>
+
+    <string name="sport">Sport</string>
+	<string name="sport_description">Sportlerfüße sind einer besonderen Belastung ausge-
+setzt und sehen sich deshalb mit nahezu allen denkbaren Fußproblemen konfrontiert. Für Sportler ist deshalb eine optimale und systematische Fußpflege Voraussetzung für die persönliche Bestleistung. Die Allpresan® PRO2 SPORT Schaum-Creme stärkt die Widerstandskraft der Fußhaut, beugt Blasenbildung und Wundlaufen vor und wirkt zudem Verhornungen entgegen.</string>
+	<string name="sport_products">– Aktiv Schaum-Creme beanspruchte Haut</string>
+
+    <string name="wohl_fuehl_pflege_description">Wenn es nur um einen „reibungslosen“ Auftritt geht und die Füße weich und geschmeidig gehalten werden sollen, helfen die Produkte unserer neuen jungen Linie pediONE by Allpresan®. Meeresmineralien, Algenextrakt und wertige Öle u.v.a. sorgen für eine intakte Haut, Entspannung und Wohlbefinden. Vom Peeling bis zur Schaumpflege findet sich alles, was der gepflegte Fuß benötigt. Mit angenehmen Duft.</string>
+    <string name="wohl_fuehl_pflege_products">– SOS Repair Pfl ege-Schaum\n– Balance Pfl ege-Schaum\n– Balance Peeling\n– Balance Fußbadkonzentrat</string>
+
+    <!-- Technologie -->
+    <string name="technologie">Technologie</string>
+    <string name="barrio_expert">BarrioExpert® Technologie</string>
+    <string name="barrio_expert_detail">Schaum ist nicht gleich Schaum! Die patentierte, atmungsaktive BarrioExpert® Technologie bildet nach dem Auftragen auf die Haut ein feinmaschiges Schutznetz aus, das die Haut vor äußeren Einflüssen schützt und die Hautbarriere stärkt. Ihr ausgewogenes Hydrolipid-System sorgt für die optimale Pflege der Haut, ohne die natürlichen Hautfunktionen zu beeinträchtigen.</string>
+    <string name="barrio_expert_lipo">BarrioExpert® LIPO2 Haut-Repair-Technologie</string>
+    <string name="barrio_expert_lipo_detail">Passgenaue Lipide fügen sich hierbei in die bei den meisten Fußproblemen geschädigte bzw. in Mitleidenschaft gezogene Hautbarriere ein und können diese so nachhaltig stärken, schützen und reparieren. Die international patentierte Technologie optimiert zudem die Wirkung der Gesamtrezeptur.</string>
+
+    <!-- advantages -->
+    <string name="advantages">Unsere Vorteile</string>
+    <string name="advantage_title_1">Schnell einziehend und nicht fettend</string>
+    <string name="advantage_detail_1">Textilien können sofort angezogen und Gegenstände sofort angefasst werden.&lt;br /&gt;
+        • Allpresan® Schaum-Cremes sind auch in den Zehenzwischenräumen anwendbar</string>
+    <string name="advantage_title_2">Leicht verteilbar und sanft im Auftragen</string>
+    <string name="advantage_detail_2">Die flächendeckende Versorgung
+        der Haut wird so gesichert.</string>
+    <string name="advantage_title_3">Bis zu doppelt so ergiebig*</string>
+    <string name="advantage_detail_3">wie herkömmliche Cremes und Salben.</string>
+    <string name="advantage_title_4">Beste Verträglichkeit</string>
+    <string name="advantage_detail_4">Allpresan® Schaum-Cremes sind sehr gut verträglich, sodass sie selbst auf hochempfindlicher Haut anwendbar sind.&lt;br /&gt;
+• Ohne Duft-, Farb- und Konservierungsstoffe &lt;br /&gt;</string>
+    <string name="advantage_detail_5">* Anerkanntes dermatologisches Institut, unveröffentlichte Studie, 2009&lt;br /&gt;</string>
+
+    <string name="send_a_picture">Schicken Sie uns ein Bild</string>
+
+    <string-array name="image_ids">
+    <item>@drawable/u2</item>
+    </string-array>
+
+    <!-- contact -->
+     <string name="text_company">Firma (optional)</string>
+    <string name="text_name">Vorname (Pflicht)</string>
+    <string name="text_surname">Nachname (Pflicht)</string>
+    <string name="text_birthdate">Geburtsdatum (Pflicht)</string>
+    <string name="text_street_house_number">Straße + Haus-Nr. (Pflicht)</string>
+    <string name="text_street">Straße (Pflicht)</string>
+    <string name="text_house_number">Haus-Nr (Pflicht)</string>
+    <string name="text_plz">PLZ (Pflicht)</string>
+    <string name="text_ort">Ort (Pflicht)</string>
+    <string name="text_email">Email (Pflicht)</string>
+    <string name="text_phone">Telefon (optional)</string>
+    <string name="text_message">Nachricht (Pflicht)</string>
+    <string name="text_description">Description (Pflicht)</string>
+
+    <string name="error_contact_data">Bitte füllen Sie alle notwendigen Felder aus.</string>
+    <string name="error_invalid_subject">Bitte geben Sie einen Betreff an.</string>
+    <string name="error_picture_data">Bitte nehmen Sie ein Bild auf.</string>
+    <string name="error_title_contact_data">Hinweis</string>
+    <string name="text_call_phone">Bitte um Rückruf</string>
+    <string name="text_copy">Kopie an die angegebene Email Adresse senden</string>
+    <string name="text_come_with_second_contact">Komme mit einer zweiten Person</string>
+    <string name="registration">Anmeldung</string>
+    <string name="register_now">Jetzt anmelden</string>
+    <string name="akademie_recommend">Mit unserer Allpresan® Akademie möchten wir Ihnen die Möglichkeit geben, sich im Bereich Fußpflege und Podologie weiter zu entwickeln. Denn nur eine regelmäßige, fachliche Weiterbildung stellt die Qualität Ihres eigenen Angebotes dauerhaft sicher.</string>
+    <string name="contact_text_1">Wir sind für Sie da!\nWenn Sie weitere Fragen, Anregungen oder Wünsche haben, kontaktieren Sie uns gern.</string>
+    <string name="contact_text_2">Schreiben Sie uns eine Nachricht über das untenstehende Kontaktformular, oder rufen Sie uns an.</string>
+    <string name="contact_text_3">Wir verwenden Ihre Daten ausschließlich zur Beantwortung Ihrer Kontaktanfrage. Mehr Informationen finden Sie in unserer Datenschutzerklärung.</string>
+
+    <!-- treatment contact -->
+    <string name="hint_subject_treatment">Betreff (Pflicht)</string>
+    <string name="hint_email_treatment">E-Mail (Pflicht)</string>
+    <string name="hint_message_treatment">Nachricht (Pflicht)</string>
+
+    <!-- scanner introduce -->
+    <string name="text_scanner_introduce">Erhalten Sie weitere Informationen zu Ihrem Allpresan® Produkt.\nHalten Sie dazu den Barcode möglichst ruhig unter die Kamera.</string>
+    <string name="text_scanner_mode">Scanmodus starten</string>
+    <string name="error_title_scan">Leider wurde das Produkt nicht gefunden</string>
+    <string name="error_permission_camera">Camera is required to scan</string>
+
+    <string name="error_content_scan">Das Produkt, das Sie gerade gescannt haben, gibt es offenbar nicht oder nicht mehr. Sie können in den Produkten schauen, ob Sie das gewünschte Produkt ggf. dort finden. Gerne stehen wir Ihnen auch telefonisch unter 01805 – 25 57 73 (0,14€/Min. aus dem dt. Festnetz) bei Fragen zur Verfügung.</string>
+
+    <string name="training_tool_not_answered">Bitte beantworten Sie zum Fortfahren alle Fragen.</string>
+    <string name="training_tool_result">Sie haben von den 9 Fragen</string>
+    <string name="training_tool_correct">Fragen richtig und</string>
+    <string name="training_tool_incorrect">Fragen falsch beantwortet</string>
+    <string name="training_tool_send_info">Schicken Sie uns jetzt die Allpresan® PODOEXPERT Testergebnisse und Sie erhalten ein hochwertiges Zertifikat kostenfrei zugeschickt.</string>
+    <string name="call_phone">Anrufen</string>
+    <string name="wohl_fuehl_pflege">Wohlfühlpflege</string>
+    <string name="notify_permission_camera">no permission for camera, Do you want grant camera permisson ?</string>
+    <string name="title_notify">Request permission</string>
+
+</resources>

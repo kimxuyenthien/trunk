@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+    <de.gimik.app.allpresanapp.view.AspectRatioImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/world_demo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#717274"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:maxLines="100"/>
+
+    <TextView
+        android:id="@+id/txtMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="@string/more_info"/>
+
+</LinearLayout>

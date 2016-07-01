@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lv_products"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_weight="1"
+        android:fastScrollAlwaysVisible="false"
+        android:fastScrollEnabled="true">
+    </ListView>
+
+</LinearLayout>

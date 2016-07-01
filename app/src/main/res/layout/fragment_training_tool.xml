@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/title_schulungTool"
+            android:textSize="@dimen/header_item_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/schulungTool"
+            android:textSize="@dimen/header_item_size"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/mote_schulungTool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/note_schulungTool"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/padding_content"
+            android:gravity="left"
+            android:text="@string/question1"
+            android:textStyle="bold"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioTraining1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/anwser1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="@string/anwser1_1" />
+
+            <RadioButton
+                android:id="@+id/anwser1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:checked="false"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="@string/anwser1_2" />
+
+            <RadioButton
+                android:id="@+id/anwser1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="@string/anwser1_3" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/padding_content"
+            android:gravity="left"
+            android:text="@string/question2"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioTraining2"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/anwser2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="@string/anwser2_1"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/anwser2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="@string/anwser2_2" />
+
+            <RadioButton
+                android:id="@+id/anwser2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center|left"
+                android:text="@string/anwser2_3" />
+        </RadioGroup>
+
+        <RelativeLayout android:id="@+id/rlNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_content">
+
+            <Button
+                android:id="@+id/bt_training_tool_previous"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:text="@string/previous"
+                android:gravity="center"
+                android:background="@drawable/button_stylepressed"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/button_text_color"
+                fontPath="fonts/BosisStd-Bold.otf"/>
+
+            <Button
+                android:id="@+id/bt_training_tool_next"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="@string/next"
+                android:background="@drawable/button_stylepressed"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/button_text_color"
+                fontPath="fonts/BosisStd-Bold.otf"/>
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/llEvaluationResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:padding="@dimen/padding_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/evalutaion"
+                android:textSize="16sp"
+                fontPath="fonts/BosisStd-Bold.otf" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/training_tool_result"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView android:id="@+id/tvCorrectAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView android:id="@+id/tvIncorrectAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+            <TextView android:id="@+id/tvSendInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/training_tool_send_info"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/btnFinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/finish"
+                android:background="@drawable/button_stylepressed"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/button_text_color"
+                fontPath="fonts/BosisStd-Bold.otf"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_training_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/foots" />
+
+        <LinearLayout
+            android:id="@+id/layout_training_sending"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_content"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_training_company"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_company"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <EditText
+                android:id="@+id/et_training_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_name"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <EditText
+                android:id="@+id/et_training_surname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_surname"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <EditText
+                android:id="@+id/et_training_street"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_street_house_number"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <EditText
+                android:id="@+id/et_training_plz"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_plz"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_training_ort"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_ort"
+                android:inputType="textCapWords"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+            <EditText
+                android:id="@+id/et_training_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_not_stress"
+                android:gravity="center|left"
+                android:hint="@string/text_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+            <CheckBox
+                android:id="@+id/cb_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:hint="@string/text_copy"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <Button
+                android:id="@+id/btn_send_training"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="bottom|center_horizontal"
+                android:text="@string/send"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/button_stylepressed"
+                style="?android:attr/borderlessButtonStyle"
+                android:textColor="@color/button_text_color"
+                fontPath="fonts/BosisStd-Bold.otf" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

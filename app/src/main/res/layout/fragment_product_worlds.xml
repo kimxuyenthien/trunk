@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    android:background="#d4d3d4">
+
+    <GridView
+        android:id="@+id/gv_productworld"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="1"
+        android:focusable="true"
+        android:clickable="true"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="0dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:verticalScrollbarPosition="right"
+        android:scrollbars="vertical"/>
+</LinearLayout>

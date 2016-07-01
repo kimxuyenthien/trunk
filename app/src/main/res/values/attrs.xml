@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CornerImageView">
+        <attr name="cornerColor" format="integer"/>
+        <attr name="borderSize" format="integer"/>
+        <attr name="lineLong" format="integer"/>
+    </declare-styleable>
+</resources>

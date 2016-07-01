@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/ivMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dip"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtConfirmFristTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/text_first_run"
+            android:paddingLeft="100dip"
+            android:paddingRight="100dip"
+            android:textSize="@dimen/header_item_size"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/btn_go_main"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dip"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/end_user"
+            android:background="@drawable/consumer_button_stylepressed"
+            android:textColor="@color/button_text_color"/>
+        <Button
+            android:id="@+id/btn_login_main"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dip"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/login_user"
+            android:background="@drawable/foot_profi_button_stylepressed"
+            android:textColor="@color/button_text_color"/>
+    </LinearLayout>
+</FrameLayout>

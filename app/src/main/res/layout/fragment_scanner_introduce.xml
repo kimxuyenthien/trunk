@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_scanner_introduce"
+            android:padding="@dimen/padding_content"
+            android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_scan_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/text_scanner_mode"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_stylepressed"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="@color/button_text_color"
+        fontPath="fonts/BosisStd-Bold.otf"/>
+</LinearLayout>

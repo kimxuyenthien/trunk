@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+        <include
+                layout="@layout/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:padding="@dimen/padding_content">
+
+            <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    >
+                <ImageView
+                        android:id="@+id/iv_product_world_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitStart"
+                        android:layout_alignParentTop="true"
+                        android:layout_above="@+id/iv_product_technonogy"
+                        android:src="@drawable/world_demo"
+                        />
+                <ImageView
+                        android:id="@+id/iv_product_technonogy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/barrio"
+                        />
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="3">
+                <ImageView
+                        android:id="@+id/iv_product"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/iv_product_icon_fake"
+                        android:layout_marginLeft="-20dp"
+                        android:src="@drawable/u10" />
+                <ImageView
+                        android:id="@+id/iv_product_icon_fake"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/u2"
+                        android:visibility="invisible"/>
+                <ImageView
+                        android:id="@+id/iv_product_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/u2"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schaum-Creme"
+                android:textSize="14sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal">
+            <RelativeLayout android:id="@+id/rlProductWorldTitle"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center_vertical">
+                <ImageView android:id="@+id/ivProductWorldTitle"
+                           android:layout_width="40dp"
+                           android:layout_height="40dp"
+                           android:layout_centerInParent="true"
+                           android:layout_margin="5dp"
+                           android:scaleType="fitXY"/>
+                <TextView
+                        android:id="@+id/tv_product_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:text="4"
+                        android:textSize="16sp"
+                        android:singleLine="false"
+                        android:textColor="@android:color/white"/>
+            </RelativeLayout>
+
+            <TextView
+                    android:id="@+id/tv_product_group_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Allpresan Fuß spezial"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_product_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="@dimen/padding_content"-->
+        <!--android:layout_marginTop="@dimen/padding_content"-->
+        <!--android:text="Small Text"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:textStyle="bold" />-->
+        <WebView
+                android:id="@+id/wvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"/>
+        <TextView
+                android:id="@+id/tv_key_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Wichtige Inhaltsstoffe"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+        <de.gimik.app.allpresanapp.view.VerticalExpandListView
+                android:id="@+id/lv_ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="1dp"
+                android:divider="@color/gray"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp">
+        </de.gimik.app.allpresanapp.view.VerticalExpandListView>
+        <de.gimik.app.allpresanapp.view.VerticalExpandListView
+                android:id="@+id/lv_eans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ui_border"
+                android:dividerHeight="1dp"
+                android:divider="@color/black"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp">
+        </de.gimik.app.allpresanapp.view.VerticalExpandListView>
+        <WebView
+                android:id="@+id/wvIngredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

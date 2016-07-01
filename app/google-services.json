@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_id": "allpresan-app",
+    "project_number": "1059881483080",
+    "name": "Allpresan App"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059881483080:android:1c340ba2cb75226a",
+        "client_id": "android:de.gimik.app.allpresanapp",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "de.gimik.app.allpresanapp",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

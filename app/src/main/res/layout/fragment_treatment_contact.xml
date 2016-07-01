@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="@dimen/padding_content">
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:maxLines="100"
+            android:text="@string/text_treatment_contact"
+            android:gravity="center"/>
+       <FrameLayout
+           android:id="@+id/flImage"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:minHeight="200dp"
+           android:background="@color/gray_not_stress"
+           android:layout_margin="10dp">
+           <de.gimik.app.allpresanapp.view.CornerImageView
+               android:id="@+id/iv_tip_detail"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:layout_gravity="center"
+               android:padding="5dp"
+			   custom:borderSize="20"
+               custom:lineLong="40"/>
+           <ImageButton
+               android:id="@+id/ib_camera_contact"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:background="@android:color/transparent"
+               android:layout_gravity="bottom|right"
+               android:layout_marginBottom="20dp"
+               android:layout_marginRight="20dp"
+               android:src="@drawable/ic_camera2"/>
+       </FrameLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/et_email"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/hint_email_treatment"
+            android:singleLine="true"
+            android:background="@color/gray_not_stress"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/et_subject"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/hint_subject_treatment"
+            android:singleLine="true"
+            android:background="@color/gray_not_stress"
+            android:layout_margin="10dp"
+            android:inputType="textCapSentences"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_message"
+            android:maxLines="5"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="top"
+            android:lines="5"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/hint_message_treatment"
+            android:background="@color/gray_not_stress"
+            android:layout_margin="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp">
+            <CheckBox
+                android:id="@+id/cb_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+            <TextView android:id="@+id/tvAgreement"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/agreement_content"/>
+        </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp">
+        <CheckBox
+            android:id="@+id/cb_copy_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/text_copy"/>
+    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:id="@+id/btn_send"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/padding_content"
+            android:background="@drawable/button_stylepressed"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/button_text_color"
+            fontPath="fonts/BosisStd-Bold.otf"/>
+
+    </LinearLayout>
+
+</ScrollView>

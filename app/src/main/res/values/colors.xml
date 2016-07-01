@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_item_icon_tint_color">#333</color>
+    <color name="nav_item_text_color">#FFF9F8F8</color>
+    <color name="bg_product_group">#009DD9</color>
+    <color name="blue">#009DD9</color>
+    <color name="nav_item_backgroud">#000000</color>
+    <color name="gray">#585858</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_grey">#FFF9F9F8</color>
+    <color name="title">#FF818181</color>
+    <color name="gray_not_stress">#ebebeb</color>
+    <color name="header">#D25516</color>
+    <color name="brown">#b1af9b</color>
+    <color name="leftmenu_backgroud_active">#737274</color>
+
+</resources>

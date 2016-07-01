@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notify_permission_camera">no permission for camera, Do you want grant camera permisson ?</string>
+</resources>
